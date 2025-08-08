@@ -1,12 +1,10 @@
 source "https://rubygems.org"
 
-ruby '3.1.6'
-
-gem "jekyll", "~> 4.3"
-gem "jekyll-theme-chirpy", "~> 5.3", ">= 5.3.2"
+gem "jekyll"
+gem "jekyll-theme-chirpy"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.13"
+  gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-archives"
