@@ -10,9 +10,34 @@ url: "https://benjamingrelk.github.io"
 github_username:  BenjaminGrelk
 
 # Build settings
-theme: minima
+theme: jekyll-theme-chirpy
+
+lang: en
+timezone: America/Chicago
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-paginate-v2
+  - jekyll-scholar
+  - jekyll-toc
+  - jekyll-include-cache
+
+paginate: 5
+paginate_path: /page:num/
+
+author:
+  name: Benjamin Grelk
+  bio: >
+    Software Engineering student at the University of Nebradka-Lincoln.
 
 # Exclude from processing.
 # The following items will not be processed, by default.
