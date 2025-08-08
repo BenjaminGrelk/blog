@@ -9,7 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   #gem "jekyll-archives"
   gem "jekyll-paginate-v2"
-  #gem "jekyll-scholar"
+  gem "jekyll-scholar"
   gem "jekyll-toc"
   #gem "jekyll-include-cache"
 end
