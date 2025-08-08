@@ -31,9 +31,18 @@ plugins:
   - jekyll-toc
   - jekyll-include-cache
 
-paginate: 5
-paginate_path: /page:num/
-
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: /page/:num/
+  title: ":title - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+    
 author:
   name: Benjamin Grelk
   bio: >
