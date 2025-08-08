@@ -1,4 +1,4 @@
-# _config.yml
+ _config.yml
 title: Ben Grelk's Blog
 email: ben.grelk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -10,43 +10,9 @@ url: "https://benjamingrelk.github.io"
 github_username:  BenjaminGrelk
 
 # Build settings
-theme: jekyll-theme-chirpy
-
-lang: en
-timezone: America/Chicago
-
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:categories/:year/:month/:day/:title/
-
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-archives
-  - jekyll-paginate
-  - jekyll-paginate-v2
-  - jekyll-scholar
-  - jekyll-toc
-  - jekyll-include-cache
-
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: /page/:num/
-  title: ":title - page :num"
-  limit: 0
-  sort_field: "date"
-  sort_reverse: true
-  trail:
-    before: 2
-    after: 2
-    
-author:
-  name: Benjamin Grelk
-  bio: >
-    Software Engineering student at the University of Nebradka-Lincoln.
 
 # Exclude from processing.
 # The following items will not be processed, by default.
