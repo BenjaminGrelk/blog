@@ -68,7 +68,7 @@ Attributes on each class controlled things like field names, ranges, and read-on
 
 Here’s a screenshot of the working editor:
 
-![Device Simulator UI, showing a table filled with data. Some devices have values inside a Type-Specific Properties column.](/assets/esi-simulator-configuration-ui.png)
+![Device Simulator UI, showing a table filled with data. Some devices have values inside a Type-Specific Properties column.](/blog/assets/esi-simulator-configuration-ui.png)
 
 ### 🔄 Refactoring and Architecture
 
